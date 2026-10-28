@@ -1,0 +1,18 @@
+info:
+  name: Alta cancion
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://localhost:8080/actividad-14/SvArtistaCrear
+  body:
+    type: form-urlencoded
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
